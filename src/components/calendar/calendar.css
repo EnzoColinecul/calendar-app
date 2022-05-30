@@ -1,0 +1,15 @@
+.calendar__container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  gap: 1rem;
+}
+
+.rbc-calendar{
+  height: 100%;
+}
+
+.rbc-toolbar {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

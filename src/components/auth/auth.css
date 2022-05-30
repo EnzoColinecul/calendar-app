@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  text-align: -webkit-center;
+}
+
+.auth__container {
+  background-color: var(--color-primary-light);
+}
+
+.auth__content {
+  margin-top: 4rem;
+  padding: 1rem;
+}
