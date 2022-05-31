@@ -11,6 +11,7 @@ import Appbar from '../ui/Appbar';
 
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import './calendar.css';
+import CalendarModal from './CalendarModal';
 
 const locales = {
   es,
@@ -33,6 +34,7 @@ function CalendarScreen() {
         startAccessor="start"
         endAccessor="end"
       />
+      <CalendarModal />
     </div>
   );
 }
