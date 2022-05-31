@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
 import { ThemeProvider } from '@emotion/react';
 
 import App from './App';
@@ -9,7 +10,9 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ThemeProvider theme={muiTheme}>
-    <App />
-  </ThemeProvider>,
+  <Provider>
+    <ThemeProvider theme={muiTheme}>
+      <App />
+    </ThemeProvider>
+  </Provider>,
 );
